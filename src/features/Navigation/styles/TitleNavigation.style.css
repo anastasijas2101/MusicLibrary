@@ -1,0 +1,33 @@
+.title-navigation {
+    background-color: #F7F9F2;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    gap: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    z-index: 1;
+    height: 40px;
+}
+
+.title-navigation img {
+    max-width: 50px;
+}
+
+.title-navigation h1 {
+    font-family: 'copperplate', fantasy;
+    font-size: 24px;
+    color: #00f0ff;
+    text-shadow: 1px 1px 4px black;
+    margin: 0;
+    padding: 0;
+}
+
+.title-navigation span {
+    color: #9908e3;
+}

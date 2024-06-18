@@ -1,0 +1,9 @@
+.title-page {
+    background-color: #00eeff60;
+    width: 100%;
+    padding: 60px;
+    padding-bottom: 144px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
