@@ -1,9 +1,55 @@
 .title-page {
-    background-color: #00eeff60;
+    background-color: #00eeff44;
     width: 100%;
     padding: 60px;
-    padding-bottom: 144px;
+    padding-bottom: 154px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+}
+
+.left-title-page {
+    max-width: 550px;
+    width: 100%;
+}
+
+.left-title-page h1 {
+    max-width: 400px;
+    width: 100%;
+    font-size: 40px;
+}
+
+.left-title-page hr {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.563);
+    border: none;
+    height: 2px;
+}
+
+.left-title-page p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.449);
+}
+
+.right-title-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.right-title-page h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'copperplate', fantasy;
+    font-size: 60px;
+    color: #00f0ff;
+    text-shadow: 1px 1px 4px black;
+}
+
+.right-title-page span {
+    color: #9908e3;
 }
