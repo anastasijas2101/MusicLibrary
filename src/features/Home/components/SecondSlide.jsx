@@ -23,7 +23,7 @@ const SecondSlide = () => {
         },
         {
             img: Listen,
-            text: 'You will discover your favorite jams, that you will keep on reapat 24/7 and we are going to help you keep them all in one place.'
+            text: 'You will discover your favorite jams, that you will keep on repeat 24/7 and we are going to help you keep them all in one place.'
         },
     ])
 
