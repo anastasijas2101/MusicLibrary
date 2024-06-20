@@ -1,9 +1,16 @@
+.full-third-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .third-slide {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .image-div {
