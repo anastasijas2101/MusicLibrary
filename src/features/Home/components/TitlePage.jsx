@@ -1,5 +1,5 @@
 import '../style/TitlePage.style.css'
-import logoImage from '../../../assets/logo-image.png'
+import { Logo } from '../../../assets'
 
 const TitlePage = () => {
     return (
@@ -11,7 +11,7 @@ const TitlePage = () => {
                     everything in between. Discover all that is hidden between the lines...</p>
             </div>
             <div className='right-title-page'>
-                <img src={logoImage} alt='logoImage' />
+                <Logo />
                 <h1>Tune<span>Hub</span></h1>
             </div>
         </div>
