@@ -1,4 +1,5 @@
 import SecondSlide from "./components/SecondSlide";
+import ThirdSlide from "./components/ThirdSlide";
 import TitlePage from "./components/TitlePage";
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <>
             <TitlePage />
             <SecondSlide />
+            <ThirdSlide />
         </>
     )
 }
