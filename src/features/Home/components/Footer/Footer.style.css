@@ -1,0 +1,28 @@
+.footer-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border: 5px solid #00f0ff;
+    border-bottom: 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+    max-width: 1000px;
+    width: 100%;
+    background-color: #00eeff74;
+    font-family: 'copperplate', fantasy;
+}
+
+.footer-image-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.footer-image-div img {
+    max-width: 25px;
+    width: 100%;
+    cursor: pointer;
+}
