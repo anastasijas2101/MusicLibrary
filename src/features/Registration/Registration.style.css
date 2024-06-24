@@ -1,0 +1,138 @@
+.registration-div-full {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.registration-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #00f0ff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    max-width: 900px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px;
+    gap: 20px;
+}
+
+.first-last-name {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.first-last-name input {
+    border-radius: 5px;
+    border: none;
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+}
+
+.birthday {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    gap: 10px;
+}
+
+.birthday p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.449);
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.date input {
+    max-width: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.email {
+    max-width: 810px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.password {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    width: 100%;
+    gap: 10px;
+}
+
+.password input {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.terms-of-service {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.449);
+}
+
+.terms-of-service span {
+    color: #F7F9F2;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottom-div {
+    max-width: 900px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-div span {
+    color: #00f0ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.join-button {
+    max-width: 180px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #00f0ff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    background-color: #F7F9F2;
+    border: 2px solid #00f0ff;
+}

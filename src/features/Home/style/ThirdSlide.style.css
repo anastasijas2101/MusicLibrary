@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1100px;
+    width: 100%;
 }
 
 .third-slide {
@@ -40,7 +42,7 @@
     padding: 0px;
 }
 
-.button-join {
+.subscribe-button {
     background-color: #00eeff;
     border: 2px solid #00c7d5;
     border-radius: 30px;
