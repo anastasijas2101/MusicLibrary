@@ -1,7 +1,14 @@
 import './Registration.style.css'
 import Button from '../../components/Button/Button'
+import { useNavigate } from 'react-router-dom'
 
 const Registration = () => {
+    const router = useNavigate();
+
+    const handleLogIn = () => {
+        router('/logIn')
+    }
+
     return (
         <div className='registration-div-full'>
             <div className='registration-div'>
@@ -29,7 +36,7 @@ const Registration = () => {
             </div>
             <div className='bottom-div'>
                 <Button className='join-button' buttonText='Join TuneHub' />
-                <p>Already have an account? <span>Log in</span></p>
+                <p>Already have an account? <span onClick={() => handleLogIn()}>Log in</span></p>
             </div>
         </div>
     )
