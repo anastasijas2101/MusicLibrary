@@ -7,6 +7,7 @@ const TitleNavigation = () => {
             <Logo />
             <h1>Tune<span>Hub</span></h1>
         </div>
+
     )
 }
 

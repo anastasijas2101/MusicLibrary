@@ -1,8 +1,9 @@
+import LatestNews from "./components/LatestNews";
 
 const Latest = () => {
     return (
         <>
-            <p>LatestPage</p>
+            <LatestNews />
         </>
     )
 }
