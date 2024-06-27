@@ -18,8 +18,8 @@ const Registration = () => {
                 </div>
                 <input className='email' type='text' placeholder='Enter your Email address' />
                 <div className='password'>
-                    <input type='text' placeholder='Enter your password' />
-                    <input type='text' placeholder='Confirm your password' />
+                    <input type='password' placeholder='Enter your password' />
+                    <input type='password' placeholder='Confirm your password' />
                 </div>
                 <div className='birthday'>
                     <p>Enter your date of birth:</p>
