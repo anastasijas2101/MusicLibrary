@@ -2,6 +2,7 @@ import '../Navigation/styles/TitleNavigation.style.css'
 import { Logo } from '../../assets'
 
 const TitleNavigation = () => {
+
     return (
         <div className="title-navigation">
             <Logo />
