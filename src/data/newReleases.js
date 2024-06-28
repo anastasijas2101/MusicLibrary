@@ -30,7 +30,7 @@ export const newReleases = [
     },
     {
         img: Brat,
-        title: 'Brat by Charlie XCX',
+        title: 'Brat by Charli XCX',
         link: 'https://www.youtube.com/playlist?list=PL-2HG0C5jJQEcsK5zkdNWRJ4Cuee3e63-'
     },
     {
