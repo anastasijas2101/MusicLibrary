@@ -17,6 +17,7 @@
 
 .title-navigation img {
     max-width: 50px;
+    cursor: pointer;
 }
 
 .title-navigation h1 {
@@ -26,6 +27,7 @@
     text-shadow: 1px 1px 4px black;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 .title-navigation span {
