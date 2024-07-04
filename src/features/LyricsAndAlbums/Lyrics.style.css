@@ -1,0 +1,127 @@
+.lyrics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lyrics-title {
+    width: 100%;
+    background-color: #00f0ff;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 2px 4px 0 #9a08e3d5;
+}
+
+.lyrics-title img {
+    padding: 20px;
+    max-width: 250px;
+    width: 100%;
+}
+
+.lyrics-title-text h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.lyrics-title-text hr {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.563);
+    border: none;
+    height: 2px;
+}
+
+.lyrics-title-text p {
+    color: rgba(0, 0, 0, 0.578);
+    max-width: 550px;
+}
+
+.searchBar-sorting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.searchBar-sorting h2 {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.searchBar-sorting hr {
+    width: 100%;
+    background-color: #9908e3;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    border: none;
+    height: 3px;
+    margin-top: 30px;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #00f0ff;
+    border-radius: 15px;
+    max-width: 400px;
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0 2px 4px 0 #9a08e3d5;
+}
+
+.searchBar img {
+    max-width: 30px;
+    cursor: pointer;
+}
+
+.searchBar input {
+    border: none;
+    background-color: #F7F9F2;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.sorting {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.sorting button {
+    max-width: 100px;
+    width: 100%;
+    border: 2px solid #9908e3;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 #9a08e3d5;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #9a08e3bb;
+    border: 2px solid #00f0ff !important;
+    color: #F7F9F2;
+    box-shadow: 0 2px 4px 0 #00eeff9a !important;
+}
+
+.songs-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 20px;
+}
