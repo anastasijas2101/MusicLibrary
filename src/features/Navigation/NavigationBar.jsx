@@ -8,7 +8,7 @@ const NavigationBar = () => {
             <span>|</span>
             <Link to={{ pathname: '/latest' }}>Latest</Link>
             <span>|</span>
-            <Link to={{ pathname: '/lyrics&albums' }}>Lyrics&Albums</Link>
+            <Link to={{ pathname: '/lyrics' }}>Lyrics</Link>
             <span>|</span>
             <Link to={{ pathname: '/registration' }}>Registration</Link>
         </nav>
