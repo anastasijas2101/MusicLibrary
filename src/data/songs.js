@@ -5,14 +5,20 @@ import Rockstar from '../assets/songs/Rockstar.png'
 import Work from '../assets/songs/Work.jpg'
 import MySongsKnow from '../assets/songs/MySongsKnow.jpg'
 import Insane from '../assets/songs/GoInsane.jpg'
+import Enemy from '../assets/songs/Enemy.png'
 import Paint from '../assets/songs/PaintTheTownRed.png'
-import Shape from '../assets/songs/ShapeOfYou.png'
 import Maestro from '../assets/songs/Maestro.jpg'
 import Gossip from '../assets/songs/Gossip.png'
-import Psychofreak from '../assets/songs/Psychofreak.png'
+import Wasabi from '../assets/songs/Wasabi.jpg'
 import Bury from '../assets/songs/BuryAFriend.jpg'
+import Milkshake from '../assets/songs/Milkshake.png'
 import Rolling from '../assets/songs/RollingStone.jpg'
 import Flowers from '../assets/songs/Flowers.png'
+import Rings from '../assets/songs/7Rings.png'
+import Centuries from '../assets/songs/Centuries.jpg'
+import Habits from '../assets/songs/BadHabits.png'
+import Fallin from '../assets/songs/Fallin.png'
+import Wicked from '../assets/songs/WickedGames.jpg'
 
 export const songs = [
     {
@@ -94,6 +100,17 @@ export const songs = [
     },
     {
         id: 8,
+        img: Enemy,
+        title: 'Enemy ft. JID',
+        artist: 'Imagine Dragons',
+        album: 'Arcane',
+        genre: 'Pop',
+        date: 'Oct. 28, 2021',
+        producer: 'Mattman & Robin',
+        link: 'https://www.youtube.com/watch?v=D9G1VOjN_84',
+    },
+    {
+        id: 9,
         img: Paint,
         title: 'Paint The Town Red',
         artist: 'Doja Cat',
@@ -102,17 +119,6 @@ export const songs = [
         date: 'Aug. 4. 2023',
         producer: 'Earl on the Beat, Karl Rubin, Jean Baptiste & DJ Replay',
         link: 'https://www.youtube.com/watch?v=m4_9TFeMfJE',
-    },
-    {
-        id: 9,
-        img: Shape,
-        title: 'Shape of You',
-        artist: 'Ed Sheeran',
-        album: 'Divide',
-        genre: 'Pop',
-        date: 'Jan. 6, 2017',
-        producer: 'Steve Mac',
-        link: 'https://www.youtube.com/watch?v=JGwWNGJdvx8',
     },
     {
         id: 10,
@@ -138,14 +144,14 @@ export const songs = [
     },
     {
         id: 12,
-        img: Psychofreak,
-        title: 'Psychofreak ft. Willow',
-        artist: 'Camila Cabello',
-        album: 'Familia',
+        img: Wasabi,
+        title: 'Wasabi',
+        artist: 'Little Mix',
+        album: 'LM5',
         genre: 'Pop',
-        date: 'Apr. 8, 2022',
-        producer: 'Tom Peyton & Ricky Reed',
-        link: 'https://www.youtube.com/watch?v=KXDjVHgeZ3A',
+        date: 'Nov. 16, 2018',
+        producer: 'Jon Spencer & Mike Sabath',
+        link: 'https://www.youtube.com/watch?v=ee5aEU4XEnc',
     },
     {
         id: 13,
@@ -160,6 +166,17 @@ export const songs = [
     },
     {
         id: 14,
+        img: Milkshake,
+        title: 'Milkshake',
+        artist: 'Kelis',
+        album: 'Tasty',
+        genre: 'HipHop',
+        date: 'Aug. 25, 2003',
+        producer: 'The Neptunes',
+        link: 'https://www.youtube.com/watch?v=6AwXKJoKJz4',
+    },
+    {
+        id: 15,
         img: Rolling,
         title: 'Rolling Stone',
         artist: 'TheWeeknd',
@@ -170,7 +187,7 @@ export const songs = [
         link: 'https://www.youtube.com/watch?v=ORVz_qeKgvg',
     },
     {
-        id: 15,
+        id: 16,
         img: Flowers,
         title: 'Flowers',
         artist: 'Miley Cyrus',
@@ -179,5 +196,60 @@ export const songs = [
         date: 'Jan. 13, 2023',
         producer: 'Kid Harpoon & Tyler Johnson',
         link: 'https://www.youtube.com/watch?v=G7KNmW9a75Y',
+    },
+    {
+        id: 17,
+        img: Rings,
+        title: '7Rings',
+        artist: 'Ariana Grande',
+        album: 'Thank U, Next',
+        genre: 'HipHop',
+        date: 'Jan. 18, 2019',
+        producer: 'Scootie, Mikey Foster & TBHits',
+        link: 'https://www.youtube.com/watch?v=QYh6mYIJG2Y',
+    },
+    {
+        id: 18,
+        img: Centuries,
+        title: 'Centuries',
+        artist: 'Fall Out Boy',
+        album: 'American Beauty/American Psycho',
+        genre: 'Rock',
+        date: 'Sep. 9, 2014',
+        producer: 'Omega, Jake Sinclair & J.R. Rotem',
+        link: 'https://www.youtube.com/watch?v=LBr7kECsjcQ',
+    },
+    {
+        id: 19,
+        img: Habits,
+        title: 'Bad Habits',
+        artist: 'Ed Sheeran',
+        album: '=(Equals)',
+        genre: 'Pop',
+        date: 'Jun. 25, 2021',
+        producer: 'Ed Sheeran, Fred again.. & Johnny McDaid',
+        link: 'https://www.youtube.com/watch?v=orJSJGHjBLI',
+    },
+    {
+        id: 20,
+        img: Fallin,
+        title: 'Fallin',
+        artist: 'Alicia Keys',
+        album: 'Songs in a Mirror',
+        genre: 'R&B',
+        date: 'Apr. 2, 2001',
+        producer: 'Alicia Keys',
+        link: 'https://www.youtube.com/watch?v=Urdlvw0SSEc',
+    },
+    {
+        id: 21,
+        img: Wicked,
+        title: 'Wicked Games',
+        artist: 'TheWeeknd',
+        album: 'House of Balloons',
+        genre: 'R&B',
+        date: 'Mar. 5, 2011',
+        producer: 'Illangelo & Doc McKinney',
+        link: 'https://www.youtube.com/watch?v=O1OTWCd40bc',
     }
 ]
