@@ -7,6 +7,7 @@ import Latest from './features/Latest/Latest'
 import Lyrics from './features/LyricsAndAlbums/Lyrics'
 import Registration from './features/Registration/Registration'
 import LogIn from './features/Registration/LogIn/LogIn'
+import SongDetails from './features/LyricsAndAlbums/components/SongDetails'
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/lyrics' element={<Lyrics />} />
           <Route path='/registration' element={<Registration />} />
           <Route path='/logIn' element={<LogIn />} />
+          <Route path='/lyrics/:id' element={<SongDetails />} />
         </Routes>
       </BrowserRouter>
     </>
