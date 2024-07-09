@@ -55,12 +55,15 @@ const SongDetails = () => {
                             <img src={song.img} alt={song.title} />
                             <div className='details-list'>
                                 <p>Title: {song.title}</p>
-                                <p>Artist: {song.artist}</p>
-                                <p>Album: {song.album}</p>
-                                <p>Release date: {song.date}</p>
                                 <p>Producers: {song.producer}</p>
+                                <p>Artist: {song.artist}</p>
+                                <p>Release date: {song.date}</p>
+                                <p>Album: {song.album}</p>
                                 <p>Genre: {song.genre}</p>
-                                <p>Listen to {song.title} on YouTube:
+                                <p>Listen to {song.title} on:
+                                    <a href={song.link}>
+                                        YouTube
+                                    </a>
                                 </p>
                             </div>
                         </div>
