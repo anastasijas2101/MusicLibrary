@@ -8,6 +8,7 @@ import Lyrics from './features/LyricsAndAlbums/Lyrics'
 import Registration from './features/Registration/Registration'
 import LogIn from './features/Registration/LogIn/LogIn'
 import SongDetails from './features/LyricsAndAlbums/components/SongDetails'
+import Favorites from './features/Favorites/Favorites'
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/registration' element={<Registration />} />
           <Route path='/logIn' element={<LogIn />} />
           <Route path='/lyrics/:id' element={<SongDetails />} />
+          <Route path='/favorites' element={<Favorites />} />
         </Routes>
       </BrowserRouter>
     </>

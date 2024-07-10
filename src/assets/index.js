@@ -7,7 +7,7 @@ import facebook from './facebook.webp'
 import soundWaves from './sound-waves.png'
 import notes from './music-notes.png'
 import dancing from './dancing.png'
-
+import enjoy from './enjoy.png'
 
 const Logo = () => {
     return <img src={logoIcon} alt='TuneHub' />
@@ -23,6 +23,10 @@ const Notes = ({ className }) => {
 
 const Dancing = ({ className }) => {
     return <img src={dancing} className={className} alt='Dancing' />
+}
+
+const Enjoy = () => {
+    return <img src={enjoy} alt='enjoy' />
 }
 
 const Youtube = () => {
@@ -50,6 +54,7 @@ export {
     SoundWaves,
     Notes,
     Dancing,
+    Enjoy,
     Youtube,
     Instagram,
     XIcon,

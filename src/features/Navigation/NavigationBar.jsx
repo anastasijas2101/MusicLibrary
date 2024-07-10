@@ -11,6 +11,8 @@ const NavigationBar = () => {
             <Link to={{ pathname: '/lyrics' }}>Lyrics</Link>
             <span>|</span>
             <Link to={{ pathname: '/registration' }}>Registration</Link>
+            <span>|</span>
+            <Link to={{ pathname: '/favorites' }}>Favorites</Link>
         </nav>
     )
 }
