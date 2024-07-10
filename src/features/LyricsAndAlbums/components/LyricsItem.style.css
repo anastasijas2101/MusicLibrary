@@ -39,6 +39,19 @@
     height: 2px;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: end;
+}
+
+.buttons img {
+    max-width: 30px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
 .lyrics-button {
     max-width: 100px;
     width: 100%;
