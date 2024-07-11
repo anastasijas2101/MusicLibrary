@@ -69,3 +69,7 @@
     background-color: #9a08e3ca;
     color: #F7F9F2;
 }
+
+.heart-filled {
+    filter: invert(24%) sepia(99%) saturate(6598%) hue-rotate(270deg) brightness(88%) contrast(104%);
+}
