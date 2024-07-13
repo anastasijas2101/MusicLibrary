@@ -1,8 +1,8 @@
 import './LyricsItem.style.css'
-import Button from '../../../components/Button/Button'
-import heart from '../../../assets/favorites.svg'
+import Button from '../../../../components/Button/Button'
+import heart from '../../../../assets/favorites.svg'
 import { useNavigate } from 'react-router-dom'
-import { useFavoritesStore } from '../../../stores/favorites.store'
+import { useFavoritesStore } from '../../../../stores/favorites.store'
 import { useState } from 'react'
 
 const LyricsItem = ({ song }) => {

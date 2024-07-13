@@ -7,7 +7,7 @@ import Latest from './features/Latest/Latest'
 import Lyrics from './features/LyricsAndAlbums/Lyrics'
 import Registration from './features/Registration/Registration'
 import LogIn from './features/Registration/LogIn/LogIn'
-import SongDetails from './features/LyricsAndAlbums/components/SongDetails'
+import SongDetails from './features/LyricsAndAlbums/components/SongDetails/SongDetails'
 import Favorites from './features/Favorites/Favorites'
 
 const App = () => {

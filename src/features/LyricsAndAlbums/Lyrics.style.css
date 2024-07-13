@@ -62,33 +62,6 @@
     margin-top: 30px;
 }
 
-.searchBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #00f0ff;
-    border-radius: 15px;
-    max-width: 400px;
-    width: 100%;
-    padding: 5px;
-    box-shadow: 0 2px 4px 0 #9a08e3d5;
-}
-
-.searchBar img {
-    max-width: 30px;
-    cursor: pointer;
-}
-
-.searchBar input {
-    border: none;
-    background-color: #F7F9F2;
-    padding: 10px;
-    border-radius: 15px;
-    width: 100%;
-    font-size: 14px;
-}
-
 .sorting {
     width: 100%;
     display: flex;

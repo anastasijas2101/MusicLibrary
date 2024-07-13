@@ -1,13 +1,15 @@
 import { songs } from "../../data/songs";
-import LyricsItem from "./components/LyricsItem";
+import LyricsItem from "./components/LyricsItem/LyricsItem";
 import './Lyrics.style.css'
 import { Dancing } from "../../assets";
 import { useState } from "react";
-import search from '../../assets/search.webp'
 import Button from '../../components/Button/Button'
+import SearchBar from "./components/SearchBar/SearchBar";
+import SearchResult from "./components/SearchResult/SearchResult";
 
 const Lyrics = () => {
     const [selectedGroup, setSelectedGroup] = useState('All');
+    const [results, setResults] = useState([]);
 
     const filteredSongs = selectedGroup === 'All' ? songs : songs.filter((songs) => songs.genre === selectedGroup);
 
@@ -24,10 +26,8 @@ const Lyrics = () => {
             </div>
             <div className="searchBar-sorting">
                 <h2>Let's explore!</h2>
-                <div className="searchBar">
-                    <input type="text" placeholder="Enter song name" />
-                    <img src={search} alt="search" />
-                </div>
+                <SearchBar setResults={setResults} />
+                <SearchResult results={results} />
                 <hr />
                 <div className="sorting">
                     <Button buttonText='All' className={selectedGroup === 'All' ? 'active' : ''} onClick={() => setSelectedGroup('All')} />
