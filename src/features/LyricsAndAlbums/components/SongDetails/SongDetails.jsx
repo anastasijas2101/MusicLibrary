@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import './SongDetails.style.css'
 import { useEffect, useState } from 'react';
-import songs from '../../../data/songs'
+import songs from '../../../../data/songs'
 
 const SongDetails = () => {
     const { id } = useParams();
