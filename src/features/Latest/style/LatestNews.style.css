@@ -33,7 +33,6 @@
     border-right: 2px solid #9908e3;
     align-items: center;
     padding: 8px;
-    text-align: justify;
 }
 
 .latest-news h3 {
@@ -49,6 +48,7 @@
 .latest-news img {
     max-width: 250px;
     width: 100%;
+    box-shadow: 0 2px 4px 0 #9908e3;
 }
 
 .date-author {
@@ -57,4 +57,27 @@
     flex-direction: row;
     justify-content: space-between;
     font-size: 12px;
+}
+
+@media only screen and (max-width:951px) {
+    .latest-news-page {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .latest-news-page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .latest-news {
+        border-right: none;
+        border-bottom: 2px solid #9908e3;
+    }
+
 }

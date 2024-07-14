@@ -7,7 +7,7 @@
 
 .second-slide-div {
     border: 5px solid #00f0ff;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 3px 4px 0 #9a08e3dd;
 }
 
 .second-slide-div {
@@ -30,11 +30,69 @@
     color: rgba(0, 0, 0, 0.582);
     font-size: 14px;
     font-style: italic;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .6);
+    box-shadow: 0 2px 4px 0 #9a08e3dd;
 }
 
 .slide-item img {
     max-width: 60px;
     width: 100%;
     opacity: 80%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .second-slide {
+        padding: 60px;
+    }
+
+    .second-slide-div {
+        padding: 60px;
+    }
+
+    .slide-item {
+        padding: 10px;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .slide-item p {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .slide-item img {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 801px) {
+    .second-slide-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+        gap: 20px;
+    }
+
+    .slide-item {
+        padding: 20px;
+    }
+
+    .slide-item p {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .second-slide {
+        padding: 40px;
+    }
+
+    .second-slide-div {
+        padding: 20px;
+    }
+
+    .slide-item {
+        padding: 10px;
+    }
 }
