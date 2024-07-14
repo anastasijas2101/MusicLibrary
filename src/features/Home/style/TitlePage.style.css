@@ -24,6 +24,7 @@
     background-color: rgba(0, 0, 0, 0.563);
     border: none;
     height: 2px;
+    box-shadow: 0px 2px 4px 0px #00f0ff;
 }
 
 .left-title-page p {
@@ -51,4 +52,58 @@
 
 .right-title-page span {
     color: #9908e3;
+}
+
+@media only screen and (max-width: 950px) {
+    .title-page {
+        padding-bottom: 120px;
+    }
+
+    .right-title-page {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .right-title-page {
+        width: 40%;
+    }
+
+    .right-title-page img {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .right-title-page h1 {
+        font-size: 50px;
+    }
+
+    .left-title-page {
+        width: 50%;
+    }
+
+    .left-title-page h1 {
+        font-size: 30px;
+    }
+
+    .right-title-page p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .title-page {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-title-page {
+        text-align: center;
+    }
+
+    .right-title-page {
+        width: 30%;
+    }
 }

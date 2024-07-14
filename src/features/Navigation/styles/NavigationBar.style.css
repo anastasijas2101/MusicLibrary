@@ -10,7 +10,7 @@
     right: 0;
     font-size: large;
     gap: 20px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px 0 #9a08e3cf;
     z-index: 1;
     font-family: 'copperplate', fantasy;
 }

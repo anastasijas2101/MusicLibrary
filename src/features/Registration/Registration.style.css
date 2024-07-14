@@ -11,6 +11,8 @@
 .registration-div {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #00f0ff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
     border: 2px solid #9908e3;
@@ -138,4 +140,35 @@
     background-color: #9908e3;
     border: 2px solid #00f0ff;
     color: #F7F9F2;
+}
+
+@media only screen and (max-width: 950px) {
+    .registration-div-full {
+        align-items: center;
+    }
+
+    .registration-div {
+        width: 90%;
+        align-items: start;
+    }
+
+    .bottom-div {
+        width: 90%;
+        align-items: start;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .registration-div p {
+        font-size: 12px;
+    }
+
+    .bottom-div p {
+        font-size: 12px;
+    }
+
+    .join-button {
+        width: 30%;
+        font-size: 12px;
+    }
 }

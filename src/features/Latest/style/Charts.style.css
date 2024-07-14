@@ -38,7 +38,7 @@
     padding-left: 20px;
     padding-right: 20px;
     color: black;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px 0 #00f0ff;
     border: 2px solid #9908e3;
     border-radius: 15px;
     gap: 20px;
@@ -73,4 +73,16 @@
     background-color: #9908e3;
     border: 2px solid #00f0ff;
     color: #F7F9F2;
+}
+
+@media only screen and (max-width: 881px) {
+    .chart p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .chart h3 {
+        width: 30%;
+    }
 }
