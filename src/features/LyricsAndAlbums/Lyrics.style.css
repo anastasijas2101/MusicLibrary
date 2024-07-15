@@ -98,3 +98,62 @@
     gap: 10px;
     padding: 20px;
 }
+
+@media only screen and (max-width: 1050px) {
+    .lyrics-title img {
+        width: 60%;
+    }
+
+    .lyrics-title h1 {
+        font-size: 30px;
+    }
+
+    .songs-list {
+        grid-template-columns: repeat(2, 5fr);
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .lyrics-title img {
+        width: 30%;
+    }
+
+    .lyrics-title p {
+        font-size: 14px;
+    }
+
+    .searchBar-sorting h2 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .lyrics-title h1 {
+        font-size: 24px;
+    }
+
+    .lyrics-title p {
+        font-size: 12px;
+    }
+
+    .searchBar-sorting h2 {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .songs-list {
+        grid-template-columns: repeat(1, 5fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .single-song-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}

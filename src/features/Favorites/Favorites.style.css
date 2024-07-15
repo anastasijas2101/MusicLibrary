@@ -96,3 +96,23 @@
     width: 40px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1000px) {
+    .favorites-list {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .favorites-top-div h1 {
+        font-size: 24px;
+    }
+
+    .favorites-top-div img {
+        width: 20%;
+    }
+
+    .favorites-bottom-div h3 {
+        font-size: 20px;
+    }
+}

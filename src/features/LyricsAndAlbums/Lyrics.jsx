@@ -40,7 +40,7 @@ const Lyrics = () => {
             </div>
             <div className="songs-list">
                 {filteredSongs.map((song) => (
-                    <div>
+                    <div className="single-song-list">
                         <LyricsItem song={song} />
                     </div>
                 ))}
