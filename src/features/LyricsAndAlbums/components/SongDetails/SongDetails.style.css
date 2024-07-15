@@ -30,7 +30,7 @@
     position: absolute;
     left: 26%;
     bottom: -68px;
-    max-width: 1100px;
+    max-width: 600px;
     width: 100%;
 }
 
@@ -39,13 +39,12 @@
 }
 
 .lyrics-details {
-    max-width: 1400px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 180px;
-    margin-left: 100px;
-    gap: 100px;
+    gap: 80px;
 }
 
 .song-lyrics h2 {
@@ -64,7 +63,7 @@
 }
 
 .song-details {
-    max-width: 680px;
+    max-width: 600px;
     width: 100%;
     border: 3px solid #00eeff;
     border-radius: 10px;
@@ -100,4 +99,68 @@
 .details-list a:hover {
     color: #00eeff;
     text-shadow: 1px 1px 4px #9a08e3;
+}
+
+@media only screen and (max-width: 1250px) {
+    .song-title-artist {
+        left: 28%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .lyrics-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .song-title-artist {
+        left: 36%;
+    }
+
+    .song-image img {
+        left: 20%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .song-title-artist {
+        left: 38%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .song-title-artist {
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .song-title-artist {
+        left: 44%;
+        width: 50%;
+    }
+
+    .song-image img {
+        left: 22%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .song-title-artist {
+        left: 50%;
+    }
+
+    .song-image img {
+        left: 26%;
+    }
+
+    .song-details {
+        width: 90%;
+    }
 }

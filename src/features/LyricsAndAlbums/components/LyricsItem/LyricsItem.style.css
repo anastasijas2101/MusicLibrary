@@ -73,3 +73,15 @@
 .heart-filled {
     filter: invert(24%) sepia(99%) saturate(6598%) hue-rotate(270deg) brightness(88%) contrast(104%);
 }
+
+@media only screen and (max-width: 800px) {
+    .song-item img {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .song-item {
+        width: 80%;
+    }
+}

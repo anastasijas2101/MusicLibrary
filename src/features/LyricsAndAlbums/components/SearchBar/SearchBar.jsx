@@ -7,6 +7,10 @@ const SearchBar = ({ setResults }) => {
     const [input, setInput] = useState('');
 
     const fetchData = (value) => {
+        if (value.trim() === '') {
+            setResults([]);
+            return;
+        }
         const results = songs.filter(song => song.title.toLowerCase().includes(value.toLowerCase()))
         setResults(results);
     }

@@ -28,3 +28,9 @@
 .searchBar input:focus {
     outline: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .searchBar {
+        width: 50%;
+    }
+}
