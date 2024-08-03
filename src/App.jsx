@@ -9,8 +9,26 @@ import Registration from './features/Registration/Registration'
 import LogIn from './features/Registration/LogIn/LogIn'
 import SongDetails from './features/LyricsAndAlbums/components/SongDetails/SongDetails'
 import Favorites from './features/Favorites/Favorites'
+import { useEffect } from 'react'
+import tuneHub from './assets/logo-image.png'
 
 const App = () => {
+
+  useEffect(() => {
+    document.title = 'TuneHub'
+
+    const changeFavicon = (src) => {
+      let link = document.querySelector("link[rel~='icon']");
+      if (!link) {
+        link = document.createElement('link');
+        link.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(link);
+      }
+      link.href = src;
+    };
+
+    changeFavicon(tuneHub);
+  }, []);
 
   return (
     <>
